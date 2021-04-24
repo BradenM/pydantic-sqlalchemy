@@ -2,7 +2,7 @@ from typing import TYPE_CHECKING, Callable, List, Optional
 
 import pytest
 from sqlalchemy.engine import create_engine
-from sqlalchemy.ext.declarative.api import declarative_base
+from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm.session import Session, sessionmaker
 
 if TYPE_CHECKING:
